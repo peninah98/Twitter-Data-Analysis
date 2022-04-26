@@ -37,7 +37,7 @@ class Clean_Tweets:
 
         df = df[df['created_at'] >= '2020-12-31']
 
-        return df
+        return df:pd.DataFrame
 
     def convert_to_numbers(self, df: pd.DataFrame) -> pd.DataFrame:
         """
